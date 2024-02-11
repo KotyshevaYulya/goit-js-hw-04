@@ -7,12 +7,10 @@ function calcAverageCalories(days) {
     // const averageDailyValue = totalCalories / days.length;
     // console.log(averageDailyValue)
 
-    let averageDailyValue = 0;
-
     if (totalCalories > 0) {
-       return averageDailyValue = totalCalories / days.length;
+       return totalCalories / days.length;
     } else {
-        return averageDailyValue;
+        return totalCalories;
     }
 }
 
